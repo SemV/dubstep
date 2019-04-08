@@ -1,0 +1,170 @@
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    margin: 0;
+}
+
+body {
+    background: #263238;
+    overflow-x: hidden;
+}
+
+
+
+/*--------------------Text-colors--------------------*/
+
+.text-about {
+    color: #f44336;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.text-heading {
+    color: #f44336;
+    text-align: center;
+}
+
+h2 {}
+
+
+/*--------------------Navbar--------------------*/
+
+.nav-position {
+    text-align: right;
+    margin-right: 1%;
+    margin-top: 1%;
+}
+
+.navbar {
+    background: none;
+    border-color: transparent;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+
+
+.navbar-nav li a {
+    padding: 20px 25px 15px 25px;
+    color: transparent;
+}
+
+.navbar-default .navbar-nav li a:hover {
+    color: #564F6F;
+}
+
+.navbar-right {
+    float: right!important;
+}
+
+.navbar-header {
+    float: none;
+}
+
+
+
+.navbar-toggle {
+    display: block;
+}
+
+.navbar-collapse {
+    border-top: 1px solid transparent;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+}
+
+.navbar-collapse.collapse {
+    display: none!important;
+}
+
+.navbar-nav>li {
+    float: none;
+}
+
+.navbar-nav>li>a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+/*--------------------Header--------------------*/
+
+.site-heading {
+    color: #d50000;
+    font-size: 100px;
+    letter-spacing: 10px;
+    margin-top: 150px;
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    border: 4px solid #DD2C00;
+    border-radius: 20px;
+}
+
+.logo {
+    /*background: url("../assets/images/dubstep.gif");
+    width: 500px;
+    height: 286px;*/
+}
+
+.language {
+    font-family: 'Montserrat', sans-serif;
+    color: #f44336;
+    display: inline-block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.language:hover {
+    color: #564F6F;
+    text-decoration: none;
+}
+
+/*--------------------Section--------------------*/
+
+.about {
+    color: #f44336;
+}
+
+
+
+/*--------------------Footer--------------------*/
+
+.social-links {
+    padding-bottom: 15px;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    color: #f44336;
+    font-size: 30px;
+    margin-top: 5px;
+}
+
+.yt-button {
+    margin-left: 5px;
+}
+
+.black-bar {
+    background-color: #000000;
+    height: 40px;
+    padding-left: 10px;
+    margin-bottom: 0px;
+}
+
+
+/*--------------------Media Queries--------------------*/
+
+@media(min-width: 0px) and (max-width: 768px) {
+    .site-heading {
+        font-size: 25px;
+    }
+}
+
+@media(min-width: 768px) and (max-width: 1200px) {
+    .site-heading {
+        font-size: 35px;
+    }
+}
