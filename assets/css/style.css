@@ -5,6 +5,7 @@ header {
 body {
     background: #263238;
     overflow-x: hidden;
+
 }
 
 #callout {
@@ -22,6 +23,7 @@ body {
 
 /*--------------------Text---------------------*/
 
+
 .text-default {
     font-family: 'Montserrat', sans-serif;
     color: #f44336;
@@ -33,7 +35,7 @@ body {
     color: #E0E0E0;
 }
 
-.artists-header {
+.section-header {
     font-size: 25px;
     margin-bottom: 50px;
     color: #DD2C00;
@@ -126,6 +128,10 @@ body {
 
 /*--------------------Artists--------------------*/
 
+#artists {
+    margin: 0;
+}
+
 .artist {
     margin-left: 100px;
     margin-bottom: 50px;
@@ -172,6 +178,18 @@ body {
 }
 
 
+/*--------------------Music--------------------*/
+
+#music {
+    background-color: #424242;
+}
+
+.soundcloud {
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+
 /*--------------------Footer--------------------*/
 
 .social-links {
@@ -191,7 +209,7 @@ body {
 }
 
 .black-bar {
-    bottom: 0;
+    margin-bottom: 0;
     background-color: #212121;
     height: 40px;
     padding-left: 10px;
