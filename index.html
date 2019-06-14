@@ -4,7 +4,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" />
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
@@ -15,89 +15,87 @@
 
 <body>
 
-	<nav class="navbar navbar-inverse navbar-fixed-top">
-		<div class="container-fluid">
-			<div class="navbar-header">
-				<button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-				<div class="collapse navbar-collapse navHeaderCollapse">
-					<ul class="nav navbar-nav navbar-right">
-
-						<li><a class="nav-text" href="#artists">Artists</a></li>
-						<li><a class="nav-text" href="#music">Music</a></li>
-						<li><a class="nav-text" href="#events">Events</a></li>
-						<li><a class="nav-text" href="#contact">Contact</a></li>
-						<li class="language"><a href="NL_index.html">NL<div class="nl-flag"></div></a></li>
-					</ul>
-				</div>
-			</div>
+	<nav class="navbar navbar-expand-sm navbar-dark" style="background-color: #212121">
+		<button class="navbar-toggler" data-toggle="collapse" data-target="#navHeaderCollapse">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navHeaderCollapse">
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item"><a class="nav-link" href="#artists">Artists</a></li>
+				<li class="nav-item"><a class="nav-link" href="#music">Music</a></li>
+				<li class="nav-item"><a class="nav-link" href="#events">Events</a></li>
+				<li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+				<li class="nav-item language"><a class="nav-link" href="NL_index.html">NL<div class="nl-flag"></div></a></li>
+			</ul>
 		</div>
 	</nav>
 
-	<header class="container">
-		<div class="row">
-			<div class="col-xs-12">
-				<h1 class="site-heading">Dubstep</h1>
+	<div class="background">
+		<header class="container">
+			<div class="row">
+				<div class="col-12">
+					<h1 class="site-header">Dubstep</h1>
+				</div>
 			</div>
-		</div>
-	</header>
-
-	<section class="container-fluid" id="callout">
-		<div class="row">
-			<div class="col-xs-12">
-				<h2 class="text-default text-callout">Discover a new dimension of sound.</h2>
+		</header>
+		<section class="container-fluid" id="callout">
+			<div class="row">
+				<div class="col-12">
+					<h2 class="text-default text-callout">Discover a new dimension of sound.</h2>
+				</div>
 			</div>
-	</section>
+		</section>
+	</div>
 
 	<section class="container-fluid" id="artists">
-		<h3 class="text-default section-header">Artists</h3>
 		<div class="row">
-			<div class="col-xs-12 col-sm-6 col-lg-3 artist">
+			<div class="col-12">
+				<h3 class="text-default section-header">Artists</h3>
+			</div>
+			<div class="col-12 col-sm-6 col-xl-4 artist">
 				<a href="#lacrimosa">
 					<div class="artist-text">Code:Pandorum</div>
-					<img src="assets/images/code_pandorum.jpg" alt="code_pandorum" class="img-responsive">
+					<img src="assets/images/code_pandorum.jpg" alt="code_pandorum" class="img-fluid">
 				</a>
 			</div>
-			<div class="col-xs-12 col-sm-6 col-lg-3 artist">
+			<div class="col-12 col-sm-6 col-xl-4 artist">
 				<a href="#crusher">
 					<div class="artist-text">Calcium</div>
-					<img src="assets/images/calcium.jpg" alt="calcium" class="img-responsive">
+					<img src="assets/images/calcium.jpg" alt="calcium" class="img-fluid">
 				</a>
 			</div>
-			<div class="col-xs-12 col-sm-6 col-lg-3 artist">
+			<div class="col-12 col-sm-6 col-xl-4 artist">
 				<a href="#sequence">
 					<div class="artist-text">Diskirz</div>
-					<img src="assets/images/diskirz.jpg" alt="diskirz" class="img-responsive">
+					<img src="assets/images/diskirz.jpg" alt="diskirz" class="img-fluid">
 				</a>
 			</div>
-			<div class="col-xs-12 col-sm-6 col-lg-3 artist">
+			<div class="col-12 col-sm-6 col-xl-4 artist">
 				<a href="#novisv">
 					<div class="artist-text">Samplifire</div>
-					<img src="assets/images/samplifire.jpg" alt="samplifire" class="img-responsive">
+					<img src="assets/images/samplifire.jpg" alt="samplifire" class="img-fluid">
 				</a>
 			</div>
-			<div class="col-xs-12 col-sm-6 col-lg-3 artist">
+			<div class="col-12 col-sm-6 col-xl-4 artist">
 				<a href="#death-pit">
 					<div class="artist-text">Mastadon</div>
-					<img src="assets/images/mastadon.jpg" alt="mastadon" class="img-responsive">
+					<img src="assets/images/mastadon.jpg" alt="mastadon" class="img-fluid">
 				</a>
 			</div>
-			<div class="col-xs-12 col-sm-6 col-lg-3 artist">
+			<div class="col-12 col-sm-6 col-xl-4 artist">
 				<a href="#nothing">
 					<div class="artist-text">Virtual Riot</div>
-					<img src="assets/images/virtual_riot.jpg" alt="virtual riot" class="img-responsive">
+					<img src="assets/images/virtual_riot.jpg" alt="virtual riot" class="img-fluid">
 				</a>
 			</div>
-
 	</section>
 
 	<section id="music">
 		<div class="container">
 			<div class="row">
-				<h3 class="text-default section-header">Listen to some music</h3>
+				<div class="col-12">
+					<h3 class="text-default section-header">Listen to some music</h3>
+				</div>
 			</div>
 			<iframe class="soundcloud" id="lacrimosa" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/536860704&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
 			<iframe class="soundcloud" id="crusher" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/586997892&color=%234e4e49&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
@@ -112,23 +110,22 @@
 		<div class="container">
 			<h2 class="text-default section-header">Events</h2>
 			<div class="row">
-				<div class="col-xs-12 col-lg-5 rampage">
-					<img src="assets/images/rampage.jpg" alt="rampage" class="img-responsive">
+				<div class="col-12 col-sm-6 rampage">
+					<img src="assets/images/rampage.jpg" alt="rampage.jpg" class="img-fluid">
 					<div class="event-text">
-						The biggest drum&bass and dubstep event in the world!<br><br> Location: Antwerp, Belgium<br><br>
-						<div class="video-container">
-							<iframe class="youtube" src="https://www.youtube.com/embed/y9aGBHXl1Pc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						The biggest drum&bass and dubstep event in the world!<br><br> Location: Antwerp, Bexlium<br><br>
+						<div class="embed-responsive embed-responsive-16by9">
+							<iframe "embed-responsive-item" src="https://www.youtube.com/embed/y9aGBHXl1Pc" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 						</div>
 					</div>
 				</div>
-				<div class="col-xs-12 col-lg-5 ignition">
-					<img src="assets/images/ignition.jpg" alt="ignition.jpg" class="img-responsive">
+				<div class="col-12 col-sm-6 ignition">
+					<img src="assets/images/ignition.jpg" alt="ignition.jpg" class="img-fluid">
 					<div class="event-text">
 						The most notorious dubstep only event in the Netherlands.<br><br> Location: Amsterdam<br><br>
-
-						<iframe class="facebook img-responsive" src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fignitioneventsnl%2Fvideos%2F601117083674699%2F&show_text=0&width=100" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
-						 allowTransparency="true" allowFullScreen="true"></iframe>
-
+						<div class="embed-responsive embed-responsive-16by9">
+							<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/VisB9JH7XPQ" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -147,14 +144,14 @@
 		</div>
 	</section>
 
-	<footer class="container-fluid">
+	<footer class="container-fluid" id="bg-black">
 		<div class="row">
-			<div class="black-bar">
+			<div class="col-12">
 				<div class="text-center">
-					<ul class="list-inline social-links">
+					<ul class="social-links">
 						<li><a target="_blank" href="#"><i class="fab fa-facebook-f"></i></a></li>
 						<li><a target="_blank" href="#"><i class="fab fa-twitter"></i></a></li>
-						<li class="yt-button"><a target="_blank" href="#"><i class="fab fa-youtube"></i></a></li>
+						<li><a target="_blank" href="#"><i class="fab fa-youtube"></i></a></li>
 					</ul>
 				</div>
 			</div>
@@ -162,7 +159,7 @@
 	</footer>
 
 	<script src="https://code.jquery.com/jquery-3.4.0.js" integrity="sha256-DYZMCC8HTC+QDr5QNaIcfR7VSPtcISykd+6eSmBW5qo=" crossorigin="anonymous"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
 </body>
 
