@@ -94,6 +94,11 @@ body {
     margin-bottom: 50px;
 }
 
+/*makes the images a block element in order for them to be centered*/
+.images {
+    display: block;
+}
+
 .code-pandorum {
     background: url("../images/code_pandorum.jpg");
     width: 500px;
@@ -172,11 +177,13 @@ body {
 }
 
 /*removes the bullet points from the list*/
+
 .social-links li {
     list-style-type: none;
 }
 
 /*social butons styling*/
+
 .social-links li a i {
     width: 32px;
     height: 32px;
@@ -190,6 +197,7 @@ body {
 }
 
 /*makes the social buttons stack next to each other*/
+
 .social-links li {
     display: inline-flex;
 }
@@ -210,7 +218,7 @@ body {
     .site-header {
         font-size: 30px;
     }
-    
+
     .text-callout {
         font-size: 15px;
     }
@@ -240,7 +248,21 @@ body {
     }
 }
 
+/*centers the artist images at high resolutions*/
 
-@media(min-width: 1600px) {
-    /*center the artist images at high resolutions*/
+/*@media(min-width: 1800px) {
+
+    .image {
+        margin-left: 60px;
+    }
+
 }
+
+@media(min-width: 2000px) {
+
+    .image {
+        margin-left: 60px;
+    }
+
+}*/
+
