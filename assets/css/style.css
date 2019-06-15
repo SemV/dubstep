@@ -39,8 +39,8 @@ body {
 }
 
 .section-header {
-    font-size: 25px;
     margin-bottom: 50px;
+    margin-top: 50px;
     color: #DD2C00;
 }
 
@@ -64,8 +64,8 @@ body {
     letter-spacing: 10px;
     margin-top: 150px;
     padding: 10px;
-    text-align: center;
     text-transform: uppercase;
+    text-align: center;
     position: relative;
     border: 4px solid #DD2C00;
     border-radius: 30px;
@@ -138,21 +138,26 @@ body {
 
 /*--------------------Music--------------------*/
 
-#music {
-    background-color: #424242;
-}
-
 .soundcloud {
     width: 100%;
     margin-bottom: 50px;
+    padding: 0px;
 }
 
+.container iframe {
+    border: 0;
+}
 
 /*--------------------Events--------------------*/
 
 #events {
     background-color: #212121;
     margin-bottom: 50px;
+    padding-top: 10px;
+}
+
+.youtube {
+    margin-bottom: 30px;
 }
 
 /*--------------------Contact--------------------*/
@@ -171,19 +176,17 @@ body {
 .bg-black {
     background-color: #000000;
 }
-
 .social-links {
-    margin-bottom: 10px;
+    margin-left: -60px;
 }
 
-/*removes the bullet points from the list*/
-
+/*makes the social buttons stack next to each other*/
 .social-links li {
+    display: inline-flex;
     list-style-type: none;
 }
 
 /*social butons styling*/
-
 .social-links li a i {
     width: 32px;
     height: 32px;
@@ -192,28 +195,13 @@ body {
     padding: 10px;
 }
 
-#yt {
+#yt-icon {
     margin-left: 10px;
-}
-
-/*makes the social buttons stack next to each other*/
-
-.social-links li {
-    display: inline-flex;
 }
 
 /*--------------------Media Queries--------------------*/
 
-/*@media(min-width: 0px) and (max-width: 1000px) { 
-    .rampage,
-    .event,
-    .artist,
-    .ignition,
-    .ignition-pic {
-        margin-left: 0px;
-    }
-}*/
-
+/*-----Site Header-----*/
 @media(min-width: 0px) and (max-width: 350px) {
     .site-header {
         font-size: 30px;
@@ -248,21 +236,10 @@ body {
     }
 }
 
-/*centers the artist images at high resolutions*/
-
-/*@media(min-width: 1800px) {
-
-    .image {
-        margin-left: 60px;
+/*makes the youtube iframes as wide as the event pictures in large resolutions*/
+@media(min-width: 1200px) {
+    .youtube {
+        width: 500px;
     }
-
 }
-
-@media(min-width: 2000px) {
-
-    .image {
-        margin-left: 60px;
-    }
-
-}*/
 
