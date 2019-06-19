@@ -18,6 +18,20 @@ body {
     margin-left: 5px;
 }
 
+
+.background {
+    background: url("../images/background.jpg");
+    width: 1920px;
+    height: 1080px;
+}
+
+/*--------------------Navbar-------------------*/
+
+.navigationBar {
+    background-color: #212121;
+}
+
+
 /*--------------------Text---------------------*/
 
 .event-text {
@@ -27,7 +41,7 @@ body {
     margin-top: 10px;
 }
 
-.text-default {
+.text-heading {
     font-family: 'Montserrat', sans-serif;
     color: #f44336;
     text-align: center;
@@ -75,8 +89,6 @@ body {
     font-family: 'Montserrat', sans-serif;
     color: #f44336;
     display: inline-block;
-
-
 }
 
 .language:hover {
@@ -154,6 +166,7 @@ body {
     background-color: #212121;
     margin-bottom: 50px;
     padding-top: 10px;
+    padding-bottom: 50px;
 }
 
 .youtube {
@@ -193,6 +206,12 @@ body {
     color: #f44336;
     font-size: 30px;
     padding: 10px;
+}
+
+.social-links li a i:hover {
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in;
+    color: #E0E0E0;
 }
 
 #yt-icon {

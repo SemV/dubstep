@@ -1,11 +1,10 @@
 Dubstep
 
-Discover a new dimension of sound. This website is dedicated to my love for dubstep, the electronic music genre. 
+Discover a new dimension of sound. This website is dedicated to my love for dubstep, the electronic music genre.
 
 UX
-The purpose of this website is to showcase some of my favourite artists and tracks in the hope that people will discover a new genre they like. 
+The purpose of this website is to showcase some of my favourite artists and tracks in the hope that people will discover a new genre they like. The website is mostly set out to entertain the audience. 
 A user should be able to:
-
 - View artists
 - Listen to music
 - View events
@@ -14,11 +13,11 @@ A user should be able to:
 Features
 Navigation bar - allows users to browse through my website.
 Soundcloud links - allows users to listen to my favourite tracks.
-Youtube links - allows users to see and hear aftermovies of events.
-Contact form - allows users to contact me by having them fill out a form.
+Youtube links - allows users to see videos of events.
+Contact form - allows users to contact me by filling out a form.
 
 Technologies Used
-- bootstrap 3.3.7 for the grid system.
+- bootstrap 4.3.1 for the grid system.
 - jQuery for 3.4.0 for the cascading navbar in mobile view.
 - Google font for the Montserrat font.
 - Font awesome for the social media buttons in the footer.
