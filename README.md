@@ -37,7 +37,8 @@ I also used my galaxy S8 and an iPhone 6 to make sure the developer tools are no
 Concerning bugs, I had some but I think (hope) I fixed them all.
 
 Deployment
-
+I deployed this site on github pages as is, without any custom configurations. I pushed the local git repository to the master branch. 
+The site can be run locally by opening the index.html in your browser of choice.
 
 Credits
 
