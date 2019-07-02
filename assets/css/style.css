@@ -25,14 +25,14 @@ body {
 }
 
 
-/*--------------------Navbar-------------------*/
+/* Navbar */
 
 .navigationBar {
     background-color: #212121;
 }
 
 
-/*--------------------Text---------------------*/
+/* Text */
 
 .event-text {
     font-family: 'Montserrat', sans-serif;
@@ -70,7 +70,7 @@ body {
     text-align: center;
 }
 
-/*--------------------Header--------------------*/
+/* Header */
 
 .site-header {
     color: #d50000;
@@ -96,7 +96,7 @@ body {
     text-decoration: none;
 }
 
-/*--------------------Artists--------------------*/
+/* Artists */
 
 #artists {
     background-color: #212121;
@@ -148,7 +148,7 @@ body {
 }
 
 
-/*--------------------Music--------------------*/
+/* Music */
 
 .soundcloud {
     width: 100%;
@@ -160,7 +160,7 @@ body {
     border: 0;
 }
 
-/*--------------------Events--------------------*/
+/* Events */
 
 #events {
     background-color: #212121;
@@ -173,7 +173,7 @@ body {
     margin-bottom: 30px;
 }
 
-/*--------------------Contact--------------------*/
+/* Contact */
 
 #contact {
     margin-top: 50px;
@@ -184,7 +184,7 @@ body {
     margin-top: 5px;
 }
 
-/*--------------------Footer--------------------*/
+/* Footer */
 
 .bg-black {
     background-color: #000000;
@@ -218,7 +218,7 @@ body {
     margin-left: 10px;
 }
 
-/*--------------------Media Queries--------------------*/
+/* Media Queries */
 
 /*-----Site Header-----*/
 @media(min-width: 0px) and (max-width: 350px) {
