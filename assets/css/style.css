@@ -9,7 +9,7 @@ body {
 }
 
 .nl-flag {
-    background: url("../images/nl_flag_icon.png");
+    background: url("../images/nl-flag-icon.png");
     width: 14px;
     height: 11px;
     display: inline-block;
@@ -17,7 +17,7 @@ body {
 }
 
 .en-flag {
-    background: url("../images/en_flag_icon.png");
+    background: url("../images/en-flag-icon.png");
     width: 14px;
     height: 11px;
     display: inline-block;
@@ -112,7 +112,7 @@ body {
 }
 
 .code-pandorum {
-    background: url("../images/code_pandorum.jpg");
+    background: url("../images/code-pandorum.jpg");
     width: 500px;
     height: 500px;
 }
@@ -136,7 +136,7 @@ body {
 }
 
 .virtual-riot {
-    background: url("../images/virtual_riot.jpg");
+    background: url("../images/virtual-riot.jpg");
     width: 500px;
     height: 500px;
 }
@@ -220,7 +220,7 @@ body {
 
 /* Media Queries */
 
-/*-----Site Header-----*/
+/*Site header*/
 @media(min-width: 0px) and (max-width: 350px) {
     .site-header {
         font-size: 30px;
