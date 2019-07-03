@@ -4,18 +4,18 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-	<link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
 	<link rel="shortcut icon" href="assets/images/icon.jpg" type="image/x-icon">
+	<link rel="stylesheet" href="assets/css/style.css" type="text/css" />
 	<title>Dubstep</title>
 </head>
 
 <body>
-	<nav class="navbar navbar-expand-sm navbar-dark navigationBar">
-		<button class="navbar-toggler" data-toggle="collapse" data-target="#navHeaderCollapse">
+	
+	<!-- NAVBAR -->
+	<nav class="navbar sticky-top navbar-expand-sm navbar-dark navigationBar">
+		<button aria-label=data-toggle class="navbar-toggler" data-toggle="collapse" data-target="#navHeaderCollapse">
 			<span class="navbar-toggler-icon"></span>
 		</button>
 		<div class="collapse navbar-collapse" id="navHeaderCollapse">
@@ -24,21 +24,24 @@
 				<li class="nav-item"><a class="nav-link" href="#music">Muziek</a></li>
 				<li class="nav-item"><a class="nav-link" href="#events">Evenementen</a></li>
 				<li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-				<li class="nav-item language"><a class="nav-link" href="index.html">EN<div class="en-flag"></div></a></li>
+				<li class="nav-item language"><a class="nav-link" href="index-NL.html">NL<div class="nl-flag"></div></a></li>
 			</ul>
 		</div>
 	</nav>
+	
+	<!-- HEADER -->
 	<header class="container">
 		<div class="row">
 			<div class="col-12">
 				<h1 class="site-header">Dubstep</h1>
 			</div>
 			<div class="col-12">
-				<h2 class="text-heading text-callout">Ontdek een nieuwe dimensie van geluid.</h2>
+				<h2 class="text-heading text-callout">Ontdek een nieuwe dimensie in geluid.</h2>
 			</div>
 		</div>
-		</div>
 	</header>
+	
+	<!-- ARTIST SECTION -->
 	<section class="container-fluid" id="artists">
 		<div class="row">
 			<div class="col-12">
@@ -47,7 +50,7 @@
 			<div class="col-12 col-sm-6 col-xl-4 artist">
 				<a href="#lacrimosa">
 					<div class="artist-text">Code:Pandorum</div>
-					<img src="assets/images/code_pandorum.jpg" alt="code_pandorum" class="img-fluid mx-auto images">
+					<img src="assets/images/code-pandorum.jpg" alt="code-pandorum" class="img-fluid mx-auto images">
 				</a>
 			</div>
 			<div class="col-12 col-sm-6 col-xl-4 artist">
@@ -77,77 +80,87 @@
 			<div class="col-12 col-sm-6 col-xl-4 artist">
 				<a href="#nothing">
 					<div class="artist-text">Virtual Riot</div>
-					<img src="assets/images/virtual_riot.jpg" alt="virtual riot" class="img-fluid mx-auto images">
+					<img src="assets/images/virtual-riot.jpg" alt="virtual riot" class="img-fluid mx-auto images">
 				</a>
 			</div>
 		</div>
 	</section>
+	
+	<!-- MUSIC SECTION -->
 	<section class="container" id="music">
 		<div class="row">
 			<div class="col-12">
 				<h3 class="text-heading section-header">Luister naar muziek</h3>
 			</div>
 		</div>
-		<iframe class="soundcloud" id="lacrimosa" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/536860704&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
-		<iframe class="soundcloud" id="crusher" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/586997892&color=%234e4e49&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
-		<iframe class="soundcloud" id="sequence" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/590107503&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
-		<iframe class="soundcloud" id="novisv" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/598452993&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
-		<iframe class="soundcloud" id="death-pit" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/528477876&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
-		<iframe class="soundcloud" id="nothing" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/579664944&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+		<iframe title="Listen to lacrimosa on soundcloud" class="soundcloud" id="lacrimosa" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/536860704&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+		<iframe title="Listen to crusher on soundcloud" class="soundcloud" id="crusher" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/586997892&color=%234e4e49&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+		<iframe title="Listen to sequence on soundcloud" class="soundcloud" id="sequence" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/590107503&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+		<iframe title="Listen to novisv on soundcloud" class="soundcloud" id="novisv" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/598452993&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+		<iframe title="Listen to death-pit on soundcloud" class="soundcloud" id="death-pit" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/528477876&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+		<iframe title="Listen to nothing on soundcloud" class="soundcloud" id="nothing" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/579664944&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
 	</section>
+	
+	<!-- EVENTS SECTION -->
 	<section class="container-fluid" id="events">
 		<h2 class="text-heading section-header">Evenementen</h2>
 		<div class="row">
 			<div class="col-12 col-sm-6 rampage">
 				<img src="assets/images/rampage.jpg" alt="rampage.jpg" class="img-fluid mx-auto images">
 				<div class="event-text text-center">
-					Het grootste drum&bass en dubstep evenement in de wereld!<br><br> Locatie: Antwerpen, Belgium<br><br>
+					Het grootste drum&bass en dubstep evenement in de wereld!<br><br> Locatie: Antwerpen, Belgie<br><br>
 				</div>
 			</div>
 			<div class="col-12 col-sm-6 ignition">
 				<img src="assets/images/ignition.jpg" alt="ignition.jpg" class="img-fluid mx-auto images">
 				<div class="event-text text-center">
-					De meest beruchte dubstep only evenement in Nederland.<br><br> Locatie: Amsterdam<br><br>
+					De meest beruchtte dubstep only evenement in Nederland.<br><br> Locatie: Amsterdam<br><br>
 				</div>
 			</div>
 			<div class="col-sm-12 col-md-6">
 				<div class="embed-responsive embed-responsive-16by9 youtube mx-auto">
-					<iframe src="https://www.youtube.com/embed/y9aGBHXl1Pc" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					<iframe title="Listen to rampage on youtube" src="https://www.youtube.com/embed/y9aGBHXl1Pc" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 				</div>
 			</div>
 			<div class="col-sm-12 col-md-6">
 				<div class="embed-responsive embed-responsive-16by9 youtube mx-auto">
-					<iframe src="https://www.youtube.com/embed/VisB9JH7XPQ" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					<iframe title="Listen to ignition on youtube" src="https://www.youtube.com/embed/VisB9JH7XPQ" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 				</div>
 			</div>
 		</div>
 	</section>
+	
+	<!-- CONTACT -->
 	<section class="container" id="contact">
-		<h2 class="text-heading section-header">Contacteer mij voor meer muziek en evenementen</h2>
+		<h2 class="text-heading section-header">Neem contact op voor meer muziek en evenementen</h2>
 		<div class="center-form">
 			<form>
-				<input type="text" name="name" class="form-control" id="fullname" placeholder="Name" required/>
-				<input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" required/>
-				<textarea rows="5" name="projectsummary" class="form-control" id="projectsummary" placeholder="Message" required></textarea>
-				<button type="submit" class="btn btn-secondary center-block" id="send-button">Send!</button>
+				<input aria-label=name type="text" name="name" class="form-control" id="fullname" placeholder="Name" required/>
+				<input aria-label=name type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" required/>
+				<textarea aria-label=name rows="5" name="message" class="form-control" id="projectsummary" placeholder="Message" required></textarea>
+				<button aria-label=type type="submit" class="btn btn-secondary center-block" id="send-button">Send!</button>
 			</form>
 		</div>
 	</section>
+	
+	<!-- FOOTER -->
 	<footer class="footer container-fluid bg-black">
 		<div class="row">
 			<div class="col-12">
 				<div class="text-center">
 					<ul class="social-links">
-						<li><a target="_blank" href="#"><i class="fab fa-facebook-f"></i></a></li>
-						<li><a target="_blank" href="#"><i class="fab fa-twitter"></i></a></li>
-						<li><a target="_blank" href="#"><i class="fab fa-youtube" id="yt-icon"></i></a></li>
+						<li><a aria-label=facebook title="Facebook" target="_blank" href=""><i class="fab fa-facebook-f"></i></a></li>
+						<li><a aria-label=twitter title="Twitter" target="_blank" href=""><i class="fab fa-twitter"></i></a></li>
+						<li><a aria-label=youtube title="Youtube" target="_blank" href=""><i class="fab fa-youtube" id="youtube"></i></a></li>
 					</ul>
 				</div>
 			</div>
 		</div>
 	</footer>
-	<script src="https://code.jquery.com/jquery-3.4.0.js" integrity="sha256-DYZMCC8HTC+QDr5QNaIcfR7VSPtcISykd+6eSmBW5qo=" crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	
+	<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </body>
 
 </html>
