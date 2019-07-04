@@ -8,8 +8,6 @@ The purpose of this website is to showcase some of my favorite artists and track
 
 # UX
 
-------
-
 **User stories:**
 
 - I want to get a good overview of the website and have no trouble navigating through it.
@@ -26,8 +24,6 @@ The purpose of this website is to showcase some of my favorite artists and track
 
 # Features
 
-------
-
 - Navigation bar - allows users to browse through the sections of the website.
 - Soundcloud links - allows users to listen to my favorite tracks.
 - Youtube links - allows users to see videos of events.
@@ -40,8 +36,6 @@ I also tried to adding background pictures to some of the sections but that woul
 Some copyright information in the footer could also be added.
 
 # Technologies used
-
-------
 
 - HTML and CSS markup languages.
 - [AWS Cloud9](https://aws.amazon.com/cloud9/).
@@ -69,10 +63,10 @@ The site's HTML and CSS are validated by the [W3C validation service](https://va
 
 - *I want to get a good overview of the website and have no trouble navigating through it.*
 
-  > > > > > > > > > > > > > > > > 1. Content on the site is placed logically.
-  > > > > > > > > > > > > > > > > 2.  The navigation bar sticking to the top makes it easy to go to any section regardless of where you are on the page. 
-  > > > > > > > > > > > > > > > > 3. In mobile view the navigation bar unfolds and retracts with a button.
-  > > > > > > > > > > > > > > > > 4. The dubstep site header shrinks in lower resolutions with the use of media queries.
+  1. Content on the site is placed logically.
+  2.  The navigation bar sticking to the top makes it easy to go to any section regardless of where you are on the page. 
+  3. In mobile view the navigation bar unfolds and retracts with a button.
+  4. The dubstep site header shrinks in lower resolutions with the use of media queries.
 
 - *If an artist caught my attention, I want to hear his music as quick as possible.*
 
@@ -123,6 +117,7 @@ How to run this project in your own IDE:
 1. Install git if you don't have it already.
 2. Create a new workspace.
 3. Clone my repository with the following command:
+
    `git clone https://github.com/SemV/dubstep`
 
 # Credits
