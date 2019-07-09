@@ -1,4 +1,4 @@
-* This project is for educational purposes only! *
+*This project is for educational purposes only!*
 
 ![dubstep](https://data.whicdn.com/images/57739397/original.gif)
 
