@@ -10,20 +10,19 @@ body {
     background: #263238;
 }
 
-.nl-flag {
-    background: url("../images/nl-flag-icon.png");
+.flag {
     width: 14px;
     height: 11px;
     display: inline-block;
     margin-left: 5px;
 }
 
-.en-flag {
+#nl-flag {
+    background: url("../images/nl-flag-icon.png");
+}
+
+#en-flag {
     background: url("../images/en-flag-icon.png");
-    width: 14px;
-    height: 11px;
-    display: inline-block;
-    margin-left: 5px;
 }
 
 
