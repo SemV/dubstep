@@ -1,3 +1,5 @@
+* This project is for educational purposes only! *
+
 ![dubstep](https://data.whicdn.com/images/57739397/original.gif)
 
 
@@ -43,7 +45,7 @@ Some copyright information in the footer could also be added.
 - [Bootstrap](https://getbootstrap.com/) for the grid system.
 - [jQuery](https://jquery.com/) for for the cascading navbar in mobile view.
 - [Font awesome](https://fontawesome.com/) for the social media buttons in the footer.
-- Google font for the [Montserrat font](https://fonts.google.com/specimen/Montserrat).
+- [Google fonts](https://fonts.google.com/) for the Montserrat font.
 
 # Testing
 
