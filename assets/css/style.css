@@ -198,6 +198,7 @@ body {
 .social-links li {
     display: inline-flex;
     list-style-type: none;
+    margin: 0 2rem;
 }
 
 /*social butons styling*/
@@ -213,10 +214,6 @@ body {
     transition-duration: 0.2s;
     transition-timing-function: ease-in;
     color: #E0E0E0;
-}
-
-#youtube {
-    margin-left: 10px;
 }
 
 /* Media Queries */
