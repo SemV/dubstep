@@ -35,6 +35,10 @@ body {
 
 /* Text */
 
+.nav-text {
+    font-family: 'Montserrat', sans-serif;
+}
+
 .event-text {
     font-family: 'Montserrat', sans-serif;
     color: #9E9E9E;
@@ -49,11 +53,13 @@ body {
 }
 
 .text-callout {
+    font-family: 'Montserrat', sans-serif;
     margin-bottom: 100px;
     color: #E0E0E0;
 }
 
 .section-header {
+    font-family: 'Montserrat', sans-serif;
     margin-bottom: 50px;
     margin-top: 50px;
     color: #DD2C00;
@@ -87,7 +93,6 @@ body {
 }
 
 .language {
-    font-family: 'Montserrat', sans-serif;
     color: #f44336;
     display: inline-block;
 }
