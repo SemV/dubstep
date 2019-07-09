@@ -92,16 +92,6 @@ body {
     border-radius: 30px;
 }
 
-.language {
-    color: #f44336;
-    display: inline-block;
-}
-
-.language:hover {
-    color: #564F6F;
-    text-decoration: none;
-}
-
 /* Artists */
 
 #artists {
