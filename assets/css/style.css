@@ -25,6 +25,10 @@ body {
     background: url("../images/en-flag-icon.png");
 }
 
+/*makes the images a block element in order for them to be centered*/
+.images {
+    display: block;
+}
 
 /* Navbar */
 
@@ -94,6 +98,7 @@ body {
 
 /* Artists */
 
+/* background for artists section */
 #artists {
     background-color: #212121;
 }
@@ -102,45 +107,28 @@ body {
     margin-bottom: 50px;
 }
 
-/*makes the images a block element in order for them to be centered*/
-.images {
-    display: block;
-}
-
 .code-pandorum {
     background: url("../images/code-pandorum.jpg");
-    width: 500px;
-    height: 500px;
 }
 
 .calcium {
     background: url("../images/calcium.jpg");
-    width: 500px;
-    height: 500px;
 }
 
 .samplifire {
     background: url("../images/samplifire.jpg");
-    width: 500px;
-    height: 500px;
 }
 
 .mastadon {
     background: url("../images/mastadon.jpg");
-    width: 500px;
-    height: 500px;
 }
 
 .virtual-riot {
     background: url("../images/virtual-riot.jpg");
-    width: 500px;
-    height: 500px;
 }
 
 .diskirz {
     background: url("../images/diskirz.jpg");
-    width: 500px;
-    height: 500px;
 }
 
 
