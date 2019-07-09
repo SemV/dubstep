@@ -143,6 +143,16 @@ body {
     margin-top: 5px;
 }
 
+/* Contact */
+
+#fullname {
+    margin-bottom: 1em;
+}
+
+#emailaddress {
+    margin-bottom: 1em;
+}
+
 /* Footer */
 
 .bg-black {
