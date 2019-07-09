@@ -30,6 +30,7 @@ body {
     display: block;
 }
 
+
 /* Navbar */
 
 .navigationBar {
@@ -81,6 +82,7 @@ body {
     text-align: center;
 }
 
+
 /* Header */
 
 .site-header {
@@ -96,6 +98,7 @@ body {
     border-radius: 30px;
 }
 
+
 /* Artists */
 
 /* background for artists section */
@@ -107,9 +110,10 @@ body {
     margin-bottom: 50px;
 }
 
+
 /* Music */
 
-.soundcloud {
+.soundcloud-iframe {
     width: 100%;
     margin-bottom: 50px;
     padding: 0px;
@@ -118,6 +122,7 @@ body {
 .container iframe {
     border: 0;
 }
+
 
 /* Events */
 
@@ -128,9 +133,10 @@ body {
     padding-bottom: 50px;
 }
 
-.youtube {
+.youtube-iframe {
     margin-bottom: 30px;
 }
+
 
 /* Contact */
 
@@ -143,15 +149,14 @@ body {
     margin-top: 5px;
 }
 
-/* Contact */
-
 #fullname {
-    margin-bottom: 1em;
+    margin-bottom: 0.5em;
 }
 
 #emailaddress {
-    margin-bottom: 1em;
+    margin-bottom: 0.5em;
 }
+
 
 /* Footer */
 
@@ -183,6 +188,7 @@ body {
     transition-timing-function: ease-in;
     color: #E0E0E0;
 }
+
 
 /* Media Queries */
 
@@ -223,7 +229,7 @@ body {
 
 /*makes the youtube iframes as wide as the event pictures in large resolutions*/
 @media(min-width: 1200px) {
-    .youtube {
+    .youtube-iframe {
         width: 500px;
     }
 }
