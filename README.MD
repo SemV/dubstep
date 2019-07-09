@@ -22,8 +22,8 @@ The purpose of this website is to showcase some of my favorite artists and track
 
 **Wireframes:**
 
-- [Desktop](https://i.imgur.com/oRnByBo.png)
-- [Mobile view](https://i.imgur.com/5S4pFXK.png)
+- [Desktop](https://i.ibb.co/4m0Wj94/desktop.png)
+- [Mobile view](https://i.ibb.co/9GSwqsH/mobile.png)
 
 # Features
 
